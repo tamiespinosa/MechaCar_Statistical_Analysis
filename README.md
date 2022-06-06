@@ -13,9 +13,9 @@
 
 ## <a name="OverviewProject"></a>Project Overview
 
-[[1]](#1)
-[[2]](#2)
-[[3]](#3)
+A fictional company, AutosRUS, wanted data analysis performed in theit newest prototype, the MechaCar. We performed a linear regression analysis to see which variables influence the milleage per gallon (MPG) the most. Additionally, we looked into the suspension coils data and check their performance for each manufacturing lot. We used R and R Studio to perform this analysis [[1]](#1), using data for the MechaCar MPG performance and suspension coils data [[2]](#2),[[3]](#3)
+
+Finally we will propose a statistical study to compare the MechaCar against other manufacturers. 
 
 ## <a name="Results"></a>Results and Summary
 
