@@ -45,18 +45,27 @@ Overall we can say that our linear regression model does predict the mpg results
 
 ### <a name="SummStatSC"></a>Summary Statistics on Suspension Coils
 
-[[1]](#1)
-[[3]](#3)
+#### Results
+
+Using R code [[1]](#1) and the suspension coil data [[3]](#3), which includes the vehicle ID, the lot in which it was manufactured and the suspension coils PSI, we found the statistical summary for the suspension coils PSI for all MechaCars built. 
 
 <p align="center"> <img src="Resources/total_summary.png" width ="70%" alt="total_summary"> </p>
 <p align="center"> Figure 3: Suspension Coils PSI Statistics</p> 
 
+Additionally we grouped the vehicles by the lot in which they were manufactured, and then found the summary statistics per lot. 
+
 <p align="center"> <img src="Resources/lot_summary.png" width ="70%" alt="lot_summary"> </p>
 <p align="center"> Figure 4: Suspension Coils PSI Statistics per Manufacturing Lot</p> 
 
+#### Summary
+
+The manufacturing requirement for suspension coils requires for the variation to stay below 100 psi. When looking at the variation for all samples, see Figure 3, this requirement is met yet the variation seems to be in the higher side. This is better explained when we dig deeper into the performance of the suspension coils per the lot where there were manufactured. Lot 1 and Lot 2 have variances below 8 psi, very small variances. Lot 3 in the other hand exceeds the acceptable variance, with a variance value of 170.3 psi, see Figure 4. This is driving the overall variance value up. Addressing this manufacturing non conformance in Lot 3 would better the overall variance results for all AutoRUS suspension coils. 
+
 ### <a name="ttestSC"></a>T-Tests on Suspension Coils
 
-[[1]](#1)
+#### Results
+
+Using R code [[1]](#1) and the
 [[3]](#3)
 
 <p align="center"> <img src="Resources/ttestALL.png" width ="70%" alt="ttestALL"> </p>
@@ -64,6 +73,8 @@ Overall we can say that our linear regression model does predict the mpg results
 
 <p align="center"> <img src="Resources/ttestperLot.png" width ="70%" alt="ttestperLot"> </p>
 <p align="center"> Figure 6: Suspension Coils PSI Mean per Manufacturing Lot vs Population Mean (T-Test)</p> 
+
+#### Summary
 
 ### <a name="Study"></a>Study Design: MechaCar vs Competition
 
