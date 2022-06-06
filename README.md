@@ -36,10 +36,10 @@
 [[3]](#3)
 
 <p align="center"> <img src="Resources/total_summary.png" width ="70%" alt="total_summary"> </p>
-<p align="center"> Figure 3: Users Breakdowns</p> 
+<p align="center"> Figure 3: Suspension Coils PSI Statistics</p> 
 
 <p align="center"> <img src="Resources/lot_summary.png" width ="70%" alt="lot_summary"> </p>
-<p align="center"> Figure 4: Users Breakdowns</p> 
+<p align="center"> Figure 4: Suspension Coils PSI Statistics per Manufacturing Lot</p> 
 
 ### <a name="ttestSC"></a>T-Tests on Suspension Coils
 
@@ -47,10 +47,10 @@
 [[3]](#3)
 
 <p align="center"> <img src="Resources/ttestALL.png" width ="70%" alt="ttestALL"> </p>
-<p align="center"> Figure 5: Users Breakdowns</p> 
+<p align="center"> Figure 5: Suspension Coils Sample PSI Mean vs Population Mean (T-Test)</p> 
 
 <p align="center"> <img src="Resources/ttestperLot.png" width ="70%" alt="ttestperLot"> </p>
-<p align="center"> Figure 5: Users Breakdowns</p> 
+<p align="center"> Figure 6: Suspension Coils PSI Mean per Manufacturing Lot vs Population Mean (T-Test)</p> 
 
 ### <a name="Study"></a>Study Design: MechaCar vs Competition
 
