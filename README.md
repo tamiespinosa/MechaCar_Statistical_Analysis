@@ -65,16 +65,19 @@ The manufacturing requirement for suspension coils requires for the variation to
 
 #### Results
 
-Using R code [[1]](#1) and the
-[[3]](#3)
+Following the variance results for suspension coils, we ran a T-Test on the suspension coil data as a whole. We compared it to a fiven population mean of 1,500 PSI. We used R code [[1]](#1) and the suspension coil data [[3]](#3). 
 
 <p align="center"> <img src="Resources/ttestALL.png" width ="70%" alt="ttestALL"> </p>
 <p align="center"> Figure 5: Suspension Coils Sample PSI Mean vs Population Mean (T-Test)</p> 
+
+Based on the difference in variance for each manufacturing lot, we ran a T-Test for the cars manufactured in each manufacturing lot. We first created subsets of the data named Lot1, Lot2 and Lot3.  
 
 <p align="center"> <img src="Resources/ttestperLot.png" width ="70%" alt="ttestperLot"> </p>
 <p align="center"> Figure 6: Suspension Coils PSI Mean per Manufacturing Lot vs Population Mean (T-Test)</p> 
 
 #### Summary
+
+
 
 ### <a name="Study"></a>Study Design: MechaCar vs Competition
 
