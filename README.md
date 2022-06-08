@@ -77,14 +77,14 @@ Based on the difference in variance for each manufacturing lot, we ran a T-Test 
 
 #### Summary
 
-The T-Tests performed compared the mean of the suspension coil's PSI measurement against the population's mean of 1,500 psi. We ran the same test on the subsets of data for each manufacturing lot. If our results had p values of less than 0.05, that would mean that the means of the samples and the mean of the population are statistically different. Conversely, if the p values are greater than 0.05 that means that the variability between the two means is statistically insignificant.  In Figure 5 we find that the mean of the sample data given is not statistically different than that of the population. 
+The T-Tests performed compared the mean of the suspension coil's PSI measurement against the population's mean of 1,500 psi. We ran the same test on the subsets of data for each manufacturing lot. If our results had p values of less than 0.05, that would mean that the means of the samples and the mean of the population are statistically different. Conversely, if the p values are greater than 0.05 that means that the difference between the two means is statistically insignificant. The T-Test also gives the 95% confidence interval, so it gives us the range that if the sample mean falls in, it wouldn't be statistically different than the population mean. In Figure 5 we find that the mean of the sample data given is not statistically different than that of the population. In Figure 6 we see that both Lot 1 and Lot 2's means do not fall outside the 95% confidence interval and their p values are greater than 0.05, so they are not statistically different than the population mean. Yet, Lot 3's p value is under 0.05 and therefore it is statistically different than that of the population mean. This result matches our variance observation, where Lot 3 has the greatest variance in its values.   
 
 ### <a name="Study"></a>Study Design: MechaCar vs Competition
 
 ## <a name="Resources"></a>Resources
 
 <a name="1">[1]</a> [R Code Used](https://github.com/tamiespinosa/MechaCar_Statistical_Analysis/blob/5f87ef4ad2d6364b9f5d77face1fadabb13255ce/MechaCarChallenge.R)
-
+Is
 <a name="2">[2]</a> [MechaCar Data](https://github.com/tamiespinosa/MechaCar_Statistical_Analysis/blob/5f87ef4ad2d6364b9f5d77face1fadabb13255ce/MechaCar_mpg.csv)
 
 <a name="3">[3]</a> [Suspension Coil Data](https://github.com/tamiespinosa/MechaCar_Statistical_Analysis/blob/5f87ef4ad2d6364b9f5d77face1fadabb13255ce/Suspension_Coil.csv)
