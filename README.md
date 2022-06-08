@@ -77,7 +77,7 @@ Based on the difference in variance for each manufacturing lot, we ran a T-Test 
 
 #### Summary
 
-
+The T-Tests performed compared the mean of the suspension coil's PSI measurement against the population's mean of 1,500 psi. We ran the same test on the subsets of data for each manufacturing lot. If our results had p values of less than 0.05, that would mean that the means of the samples and the mean of the population are statistically different. Conversely, if the p values are greater than 0.05 that means that the variability between the two means is statistically insignificant.  In Figure 5 we find that the mean of the sample data given is not statistically different than that of the population. 
 
 ### <a name="Study"></a>Study Design: MechaCar vs Competition
 
