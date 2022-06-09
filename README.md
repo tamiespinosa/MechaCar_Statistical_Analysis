@@ -81,15 +81,21 @@ The T-Tests performed compared the mean of the suspension coil's PSI measurement
 
 ### <a name="Study"></a>Study Design: MechaCar vs Competition
 
-AutosRUS will need to prove how it's MechaCar compares to that of the competition. In order to do so, the car will need to be tested and compared to that of other manufacturers. 
+AutosRUS will need to prove how it's MechaCar compares to that of the competition. In order to do so, the car will need to be tested and compared to that of other manufacturers. For this study we will be assuming that the MechaCar is a Sedan and that we want to create the most reliable car. 
 
 #### Metric to be tested
 
+An important measure for a car is the car's reliability, or how long will the car last. We will need to test the wear and tear of the car components.
+
 #### Null hypothesis and alternative hypothesis
 
-#### Statistical test to test the hypothesis
+In our null hypothesis we would say that the reliability score for our car is the same as the mean score of all the other cars in it's category. 
+Our alternative hypothesis is that the design of our car is good, and therefore its reliability score will be in the top of the cars in its category.
 
-#### Data needed for statistical test
+#### Statistical test to test the hypothesis and Data needed for statistical test
+
+Certain mechanical and electrical components, such as the motor, ignition, gear box should have fatigue tests performed to them to see after how many cycles of use would the components have a mechanical failure. The life cycle's of these components would be compared to the mean life cycle's of the competitor's components through a T-Test. If we were certify that our car design would outlast most other car's, we would get life cycles that are longer than the mean of the life cycles of other cars, and the difference would be statistically significant (p values would be greater than 0.05).
+
 
 ## <a name="Resources"></a>Resources
 
