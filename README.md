@@ -81,6 +81,16 @@ The T-Tests performed compared the mean of the suspension coil's PSI measurement
 
 ### <a name="Study"></a>Study Design: MechaCar vs Competition
 
+AutosRUS will need to prove how it's MechaCar compares to that of the competition. In order to do so, the car will need to be tested and compared to that of other manufacturers. 
+
+#### Metric to be tested
+
+#### Null hypothesis and alternative hypothesis
+
+#### Statistical test to test the hypothesis
+
+#### Data needed for statistical test
+
 ## <a name="Resources"></a>Resources
 
 <a name="1">[1]</a> [R Code Used](https://github.com/tamiespinosa/MechaCar_Statistical_Analysis/blob/5f87ef4ad2d6364b9f5d77face1fadabb13255ce/MechaCarChallenge.R)
